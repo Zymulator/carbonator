@@ -1,1 +1,1 @@
-require('./lib/carbonator.js');
+module.exports = require('./lib/carbonator.js');

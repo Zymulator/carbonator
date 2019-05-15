@@ -2,8 +2,7 @@
 
 Carbonate the web.
 
-JQuery plugin based on [bubblr](https://github.com/mikeyhogarth/bubblr) by
-Mikey Hogarth.
+JQuery plugin based on [bubblr](https://github.com/mikeyhogarth/bubblr) by Mikey Hogarth.
 
 ## Usage
 
@@ -42,3 +41,13 @@ The following options may be passed to the `carbonate` function:
 | `bubbleSpeedMin` | minimum movement speed of each bubble (px/frame)| `3` |
 | `bubbleSpeedRange` | possible bubble movement speed in excess of minimum | `2` |
 | `bubbleDensity` | number of bubbles to draw per pixel of canvas area | `0.0005,` |
+
+### You Might Not Need JQuery
+
+While this library is designed to be used as a JQuery plugin, JQuery is not required and is not included as a dependency.  Alternatively, the constructor may be accessed directly from the imported module:
+
+```javascript
+const Carbonator = require('carbonator');
+
+new Carbonator(document.querySelector('div.flat'));
+```
