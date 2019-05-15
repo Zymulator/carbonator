@@ -1,0 +1,31 @@
+{
+  "name": "carbonator",
+  "version": "1.0.0",
+  "description": "Carbonate your web pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zymulator/carbonator.git"
+  },
+  "keywords": [
+    "carbonation",
+    "bubbles",
+    "bubble",
+    "nitro",
+    "beer",
+    "soda",
+    "pop",
+    "animation",
+    "canvas",
+    "wow"
+  ],
+  "author": "Nick Barry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zymulator/carbonator/issues"
+  },
+  "homepage": "https://github.com/zymulator/carbonator#readme"
+}
