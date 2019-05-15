@@ -44,10 +44,12 @@ The following options may be passed to the `carbonate` function:
 
 ### You Might Not Need JQuery
 
-While this library is designed to be used as a JQuery plugin, JQuery is not required and is not included as a dependency.  Alternatively, the constructor may be accessed directly from the imported module:
+While this library is designed to be used as a JQuery plugin, JQuery is not required and is not included as a dependency.  Alternatively, the constructor may be accessed directly from the imported module, or through a function attached to itself:
 
 ```javascript
 const Carbonator = require('carbonator');
 
 new Carbonator(document.querySelector('div.flat'));
+
+Carbonator.carbonate(document.querySelector('div.flat'));
 ```
