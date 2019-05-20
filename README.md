@@ -46,8 +46,10 @@ The following options may be passed to the `carbonate` function:
 | `hotspotProbabilityMin` | minimum chance per frame for hotspot to generate bubble | `0.25` |
 | `hotspotProbabilityMax` | maximum chance per frame for hotspot to generate bubble | `0.75` |
 | `hotspotRespawnRate` | chance per frame that hotspot will be deleted and regenerated at a different location | `1 / (24 * 10)` (about every 10 seconds) |
-| `beforeDraw` | `function` to call before drawing each frame (passed `Canvas​Rendering​Context2D`) | `undefined` |
-| `afterDraw` | `function` to call after drawing each frame (passed `Canvas​Rendering​Context2D`) | `undefined` |
+| `beforeDraw` | `function` to call before drawing each frame (passed `Canvas​Rendering​Context2D`) † | `undefined` |
+| `afterDraw` | `function` to call after drawing each frame (passed `Canvas​Rendering​Context2D`) † | `undefined` |
+
+† callbacks are bound to the `Carbonator` instance; internal properties may therefore be accessed through `this`, but such behavior may be subject to breaking changes
 
 ### You Might Not Need JQuery
 
