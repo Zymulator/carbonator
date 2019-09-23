@@ -58,7 +58,9 @@ While this library is designed to be used as a JQuery plugin, JQuery is not requ
 ```javascript
 const Carbonator = require('carbonator');
 
-new Carbonator(document.querySelector('div.flat'));
+// call via constructor
+new Carbonator(document.querySelector('div.flat'), options);
 
-Carbonator.carbonate(document.querySelector('div.flat'));
+// call via factory method
+Carbonator.carbonate(document.querySelector('div.flat'), options);
 ```
