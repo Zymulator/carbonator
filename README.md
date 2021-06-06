@@ -38,7 +38,7 @@ The following options may be passed to the `carbonate` function:
 | `bubbleDensity` | number of bubbles to draw per pixel of canvas area | `0.0005` |
 | `bubbleFlutter` | maximum range bubble may move in either direction (px/frame) | `0.1` |
 | `bubbleGrowthFactorMin` | minimum bubble growth rate | `1` (no growth) |
-| `bubbleGrowthFactorMin` | possible bubble growth rate in excess of minimum | `0.002` |
+| `bubbleGrowthFactorRange` | possible bubble growth rate in excess of minimum | `0.002` |
 | `bubbleOpacity` | opacity of the bubbles | `0.7` |
 | `bubbleRadiusMin` | minimum range of each bubble (px) | `1` |
 | `bubbleRadiusRange` | possible bubble radius in excess of minimum | `2` |
